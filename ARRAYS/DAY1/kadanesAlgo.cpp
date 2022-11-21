@@ -66,16 +66,9 @@ return maxSoFar;
 
 int main()
 {
-    // int n;
-    // cin>>n;
+   
     vector<int> v1={-2,1,-3,4,-1,2,1,-5,4};
-    // for(int i=0;i<n;++i)
-    // {
-    //     int temp;
-    //     cin>>temp;
-    //     v1.push_back(temp);
-    // }
-
+   
     cout<<kadanesAlgo(v1);
 
     return 0;
